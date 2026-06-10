@@ -6,14 +6,14 @@ difficulty: beginner
 starter: true
 ---
 
-M-Lab data is a powerful resource for internet advocacy — it's open, independently verifiable, and produced at a scale that individual communities or organizations cannot replicate on their own. This guide is for advocates, organizers, civil society researchers, and journalists who want to use M-Lab data to document ISP behavior, support communities, and build evidence-based arguments.
+M-Lab data is a powerful resource for internet advocacy — it's open, independently verifiable, and produced at a scale that individual communities or organizations cannot replicate on their own. This guide is for advocates, organizers, civil society researchers, and journalists who want to use M-Lab data to document ISP behavior, support communities, and build evidence-based arguments which can improve network access and performance around the world.
 
 ## What Makes M-Lab Useful for Advocacy
 
 - **Independent** — M-Lab is not run by any ISP, and data is not controlled by commercial interests
-- **Open and verifiable** — anyone can check the methodology and reproduce the results
+- **Open and verifiable** — anyone can check methodologie and reproduce the results
 - **Long record** — continuous measurements since 2009 enable before/after comparisons and trend analysis
-- **Covers throttling** — the WeHe test specifically detects whether ISPs treat app traffic differently
+- **Covers net neutrality** — the WeHe test specifically detects whether ISPs treat app traffic differently
 - **Freely accessible** — no subscription required to access the data
 
 ## Start Here
@@ -21,16 +21,6 @@ M-Lab data is a powerful resource for internet advocacy — it's open, independe
 - [Welcome to M-Lab: Open Internet Measurement](../welcome-to-mlab) — what M-Lab is and why open measurement matters
 - [Beyond Speed: Understanding Internet Quality Metrics](../internet-quality-beyond-speed) — why download speed headlines often don't capture what users actually experience; latency, packet loss, and quality under load
 - [How M-Lab Measures Internet Speed: NDT7 and MSAK](../test-ndt) — what NDT actually measures and what it doesn't
-
-## Detecting Throttling and Traffic Discrimination
-
-One of M-Lab's most directly advocacy-relevant tools is **WeHe**, which tests whether your ISP treats traffic from specific apps (YouTube, Spotify, Amazon Video, etc.) differently from other traffic.
-
-**To run a WeHe test now:** WeHe is available as a free mobile app at [wehe.meddle.mobi](https://wehe.meddle.mobi/). Each test you run contributes to the public dataset.
-
-WeHe works by sending real app traffic and comparing it to randomized (bit-inverted) traffic. A statistically significant difference means the ISP is applying app-specific treatment — throttling, deprioritization, or blocking — not just experiencing general congestion.
-
-- [WeHe — Traffic Differentiation Detection](../test-wehe) — how WeHe works, how to interpret results, and how to query the historical dataset in BigQuery
 
 ## Broadband Speed and Coverage Evidence
 
